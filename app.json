@@ -20,11 +20,19 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#ffffff",
+        "package": "com.devmatheus.motatormenta",
+        "versionCode": 1
+      },
+      "package": "com.matheusmotadev.tormenta"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "75263faf-6593-4e36-b5d2-767d33978c22"
+      }
     }
   }
 }
